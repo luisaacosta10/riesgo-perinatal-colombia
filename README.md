@@ -4,7 +4,7 @@ Aplicación interactiva que estima la probabilidad de cesárea, la probabilidad
 de bajo peso al nacer y las semanas de gestación, usando las Estadísticas
 Vitales del DANE 2023 y solo información disponible antes del parto.
 
-**Aplicación en línea:** (aquí pegas el link cuando lo tengas)
+**Aplicación en línea:** https://riesgo-perinatal-colombia-ticmcrywrgff6zhoiewgwz.streamlit.app/
 
 ## Modelos
 - Cesárea: Random Forest (umbral 0.50)
