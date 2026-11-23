@@ -1,0 +1,75 @@
+{
+ "cesarea": {
+  "umbral": 0.5,
+  "columnas": [
+   "SEXO",
+   "NUMCONSUL",
+   "MUL_PARTO",
+   "IDPERTET",
+   "EDAD_MADRE",
+   "EST_CIVM",
+   "NIV_EDUM",
+   "ULTCURMAD",
+   "CODPTORE",
+   "AREA_RES",
+   "N_HIJOSV",
+   "N_EMB",
+   "SEG_SOCIAL",
+   "EDAD_PADRE",
+   "NIV_EDUP",
+   "ULTCURPAD"
+  ],
+  "modelo": "rf",
+  "variante": "cesarea"
+ },
+ "bajo_peso": {
+  "umbral": 0.16,
+  "columnas": [
+   "SEXO",
+   "NUMCONSUL",
+   "MUL_PARTO",
+   "IDPERTET",
+   "EDAD_MADRE",
+   "EST_CIVM",
+   "NIV_EDUM",
+   "ULTCURMAD",
+   "CODPTORE",
+   "AREA_RES",
+   "N_HIJOSV",
+   "N_EMB",
+   "SEG_SOCIAL",
+   "EDAD_PADRE",
+   "NIV_EDUP",
+   "ULTCURPAD"
+  ],
+  "modelo": "logit",
+  "variante": "bajo_peso"
+ },
+ "tiempo_gestacion": {
+  "columnas": [
+   "SEXO",
+   "NUMCONSUL",
+   "MUL_PARTO",
+   "IDPERTET",
+   "EDAD_MADRE",
+   "EST_CIVM",
+   "NIV_EDUM",
+   "ULTCURMAD",
+   "CODPTORE",
+   "AREA_RES",
+   "N_HIJOSV",
+   "N_EMB",
+   "SEG_SOCIAL",
+   "EDAD_PADRE",
+   "NIV_EDUP",
+   "ULTCURPAD"
+  ],
+  "semanas_por_intervalo": {
+   "1": 21.0,
+   "2": 24.5,
+   "3": 32.5,
+   "4": 39.5,
+   "5": 42.0
+  }
+ }
+}
